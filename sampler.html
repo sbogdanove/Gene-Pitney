@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    
+    <title>Gene Pitney Sampler</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="offcanvas.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="container">
+
+      <div class="row row-offcanvas row-offcanvas-right">
+
+        <div class="col-xs-12 col-sm-9">
+          <p class="pull-right visible-xs">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+          </p>
+          <div class="jumbotron">
+            <h1>Gene Pitney Sampler</h1>
+            <p>These samples show the range of Gene Pitney's music styles both as a singer and a songwriter.</p>
+          </div>
+          <div class="row">
+            <div class="col-6 col-sm-6 col-lg-4">
+              <h2>Torch Songs</h2>
+              <p>Gene's powerful voice and range was perfect for conveying teenage heartbreak.</p>
+               	<br>            
+				<input type="button" onclick="playAudio(1)" value="I'm Gonna Be Strong"/>
+              	<br><br><br> 				
+				<input type="button" onclick="playAudio(2)" value="Half Heaven Half Heartache"/>
+              	<br><br><br> 	
+				<input type="button" onclick="playAudio(3)" value="I Must Be Seeing Things"/>
+              	<br><br>					
+            </div><!--/span-->
+            <div class="col-6 col-sm-6 col-lg-4">
+              <h2>Gene At the Movies</h2>
+              <p>Gene recorded the title song to Town Without Pity. The song received a Golden Globe award and an Academy Award nomination. He also recorded The Man Who Shot Liberty Valance which was based on the movie of the same name, but it wasn't used in the soundtrack. </p>
+				<br>
+				<input type="button" onclick="playAudio(11)" value="The Man Who Shot Liberty Valance"/>
+              	<br><br><br> 	
+				<input type="button" onclick="playAudio(12)" value="Town Without Pity (English)"/>
+              	<br><br><br> 	
+				<input type="button" onclick="playAudio(18)" value="Town Without Pity (German)"/>
+              	<br><br><br> 	
+				<input type="button" onclick="playAudio(19)" value="Town Without Pity (Italian)"/>
+				<br><br>												
+            </div><!--/span-->
+            <div class="col-6 col-sm-6 col-lg-4">
+              <h2>Gene as a Song Writer</h2>
+              <p>Gene authored a number of songs made popular by himself and other artists. Here are a few.</p>
+				<br>
+				<input type="button" onclick="playAudio(4)" value="I Wanna Love My Life Away"/>
+              	<br><br><br> 	
+				<input type="button" onclick="playAudio(5)" value="Hello Mary Lou (Gene Pitney)"/>
+              	<br><br><br> 	
+				<input type="button" onclick="playAudio(6)" value="Hello Mary Lou (Ricky Nelson)"/>
+              	<br><br><br> 	
+				<input type="button" onclick="playAudio(7)" value="She's a Rebel (Gene Pitney)"/>
+              	<br><br><br> 	
+				<input type="button" onclick="playAudio(8)" value="He's a Rebel (The Crystals)"/>
+              	<br><br><br> 	
+				<input type="button" onclick="playAudio(9)" value="Rubber Ball (Gene Pitney)"/>
+              	<br><br><br> 	
+				<input type="button" onclick="playAudio(10)" value="Rubber Ball (Bobby Vee)"/>
+				<br><br>
+            </div><!--/span-->
+            <div class="col-6 col-sm-6 col-lg-4">
+              <h2>Cara Mia</h2>
+              <p>While the definitive version was recorded by Jay Black (Jay and the Americans), Gene's version deserves a listen.</p>
+				<br>
+				<input type="button" onclick="playAudio(13)" value="Cara Mia (Gene Pitney)"/>
+              	<br><br><br> 	
+				<input type="button" onclick="playAudio(14)" value="Cara Mia (Jay Black)"/>
+				<br><br>
+            </div><!--/span-->
+            <div class="col-6 col-sm-6 col-lg-4">
+              <h2>A Little Bit Country</h2>
+              <p>Gene recorded two albums with George Jones. Here's a sample.</p>
+				<br>              
+				<input type="button" onclick="playAudio(15)" value="Mockin' Bird Hill (with George Jones)"/>
+				<br><br>
+            </div><!--/span-->
+            <div class="col-6 col-sm-6 col-lg-4">
+              <h2>A Little Bit Rock and Roll</h2>
+              <p>In 1964, Pitney recorded "That Girl Belongs to Yesterday" by Mick Jagger and Keith Richards. In 1989, he collaborated with Marc Almond on "Something's Gotten Hold of My Heart" </p>
+				<br>
+				<input type="button" onclick="playAudio(16)" value="That Girl Belongs to Yesterday"/>
+              	<br><br><br> 	
+				<input type="button" onclick="playAudio(17)" value="Something's Gotten Hold of My Heart"/>
+				<br><br>
+            </div><!--/span-->
+          </div><!--/row-->
+        </div><!--/span-->
+
+        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+          <div class="list-group">
+            <a href="http://en.wikipedia.org/wiki/Gene_Pitney" class="list-group-item">Wikipedia</a>
+            <a href="http://rockhall.com/inductees/gene-pitney/bio/" class="list-group-item">Rock & Roll Hall Of Fame Bio</a>
+            <a href="https://archive.org/details/GenePitney-01-200" class="list-group-item">Free Streaming and Downloads</a>
+          </div>
+        </div><!--/span-->
+      </div><!--/row-->
+
+      <hr>
+
+    </div><!--/.container-->
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script src="audioSamples.js"></script>    
+  </body>
+</html>
