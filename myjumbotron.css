@@ -44,8 +44,8 @@
 
 @media only screen and (min-width : 480px ) {
 	.myjumbotron {
-		background-image: radial-gradient(blue, green);
-		background-color:#66FFCC;	
+		background-image: radial-gradient(yellow, brown);
+		background-color:#F4A460;	
 	}
 }
 
