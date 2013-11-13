@@ -35,11 +35,15 @@
     line-height: 1.4;
     font-family:'Piedra'
 }
-@media only screen and (min-width : 320px ) {
+
+.myform { display:block; }
+
+@media only screen and (min-device-width : 320px ) and (max-device-width : 480px ) {
 	.myjumbotron {
 		background-image: radial-gradient(red, blue);
 		background-color:#CCCCFF;	
 	}
+	.myform { display:none; }
 }
 
 @media only screen and (min-width : 480px ) {
