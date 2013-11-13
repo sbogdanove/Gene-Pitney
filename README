@@ -1,0 +1,33 @@
+Using valid semantic HTML markup - verified.
+
+Use of at least one media type. Use audio from javascript.
+Will play mpg or ogg based on what is supported.
+
+Use of at least one HTML form type - e-mail type used in membership form.
+
+Use of web fonts - used in myjumbotron class
+
+Use of gradient - in myjunbotron class
+
+Use of CSS3 correctly - In the last class, you said we could start with
+			bootstrap. I hope I understood correctly. I started
+			with one of their pages - I think it was jumbotron,
+			which already had responsive css classes set up.
+
+			I added a few additional in myjumbotron.css
+
+			I added some media queries to change the jumbotron
+			color when the screen size changes. It kinda works.
+
+Works correctly on current release of all major desktop browsers - 
+	Tried on Safari, Firefox, and Google Chrome. I have a mac
+	and don't have the latest IE at work.
+
+Works correctly in a tablet device - works on my 7" Galaxy tab. I don't have
+	an I-pad.
+
+Works correctly in a smart phone - tried in my Samsung and Blackberry - 
+	well the page shows up, but doesn't work too well.
+
+Published to github - sbogdanove.github.io/Gene-Pitney/index.html
+
