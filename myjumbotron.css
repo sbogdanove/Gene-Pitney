@@ -1,0 +1,57 @@
+@import url(http://fonts.googleapis.com/css?family=IM+Fell+Great+Primer:400,400italic|Diplomata+SC|Piedra);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
+
+<!--font-family: 'IM Fell Great Primer', serif;-->
+<!--font-family: 'Diplomata SC', cursive;-->
+<!--font-family: 'Piedra', cursive;-->
+
+.container .myjumbotron {
+    border-radius: 20px;
+}
+.container .myjumbotron {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.myjumbotron {
+	background-image: radial-gradient(red, yellow);
+	background-color:#F4A460;
+	border: 20px;
+	border-color: #993333;
+    color: inherit;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 2.14286;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+.myjumbotron {
+    padding-bottom: 48px;
+    padding-top: 48px;
+}
+
+.myjumbotron p {
+
+    line-height: 1.4;
+    font-family:'Piedra'
+}
+@media only screen and (min-width : 320px ) {
+	.myjumbotron {
+		background-image: radial-gradient(red, blue);
+		background-color:#CCCCFF;	
+	}
+}
+
+@media only screen and (min-width : 480px ) {
+	.myjumbotron {
+		background-image: radial-gradient(blue, green);
+		background-color:#66FFCC;	
+	}
+}
+
+@media only screen and (min-device-width : 768px ) and (max-device-width: 1024 px) {
+	.myjumbotron {
+		background-image: radial-gradient(green, yellow);
+		background-color:#CCFF33;	
+	}
+}
